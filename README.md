@@ -5,7 +5,7 @@
 TabVault is a sleek Chrome extension that saves and restores your tab collections with a single click, eliminating lost research sessions and streamlining context switching between projects.
 
 <p align="center">
-  <img src="screenshot.png" alt="DeepUI Screenshot" width="700">
+  <img src="screenshot.png" alt="DeepUI Screenshot" width="245">
 </p>
 
 ## ✨ Features
