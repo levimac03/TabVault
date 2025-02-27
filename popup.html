@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TabVault</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="tabvault-container">
+        <div id="tabvault-header">TabVault</div>
+        <div id="tabvault-list"></div>
+        <div id="tabvault-footer">
+            <div class="tabvault-button-group">
+                <button id="tabvault-save-btn">Save Current Workspace</button>
+                <button id="tabvault-load-btn" disabled>Load Selected</button>
+            </div>
+            <button id="tabvault-close-btn">Close</button>
+            <button id="tabvault-dev-btn">Developer Options</button>
+        </div>
+    </div>
+    
+    <div id="tabvault-dev-console" class="tabvault-modal">
+        <div class="tabvault-modal-content">
+            <div class="tabvault-modal-header">
+                <span>Developer Console</span>
+                <span class="tabvault-modal-close">&times;</span>
+            </div>
+            <div class="tabvault-modal-body">
+                <div id="tabvault-log-container"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="tabvault-toast" class="tabvault-toast"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

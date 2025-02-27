@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "TabVault",
+    "version": "1.0",
+    "description": "Save and manage browser tab workspaces with a sleek GUI.",
+    "permissions": ["tabs", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "commands": {
+        "toggle-tabvault": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+H"
+            },
+            "description": "Toggle TabVault popup"
+        }
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
