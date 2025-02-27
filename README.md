@@ -1,7 +1,5 @@
 # TabVault
 
-![TabVault Logo](images/icon128.png)
-
 ## Your Tabs, Organized. Your Workflow, Preserved.
 
 TabVault is a sleek Chrome extension that saves and restores your tab collections with a single click, eliminating lost research sessions and streamlining context switching between projects.
