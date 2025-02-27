@@ -1,8 +1,10 @@
 # TabVault
 
+![TabVault Logo](images/icon128.png)
+
 ## Your Tabs, Organized. Your Workflow, Preserved.
 
-TabVault is a sleek Chrome extension that solves the eternal browser tab chaos. Ever closed a window with 30+ tabs by accident? Lost your perfectly curated research setup? Switched between different projects and lost your flow? TabVault has you covered.
+TabVault is a sleek Chrome extension that saves and restores your tab collections with a single click, eliminating lost research sessions and streamlining context switching between projects.
 
 ## ✨ Features
 
@@ -37,20 +39,40 @@ Whether you're a:
 
 TabVault transforms how you work online, making context-switching painless and preserving your digital workspace exactly as you left it.
 
+## 🛠️ Installation Guide
+
+Since TabVault is currently in development and not yet available on the Chrome Web Store, you'll need to install it in developer mode:
+
+1. **Download the extension**:
+   - Clone this repository or download it as a ZIP file
+   - If downloaded as ZIP, extract the files to a folder on your computer
+
+2. **Open Chrome Extensions page**:
+   - Open Chrome and type `chrome://extensions/` in the address bar
+   - Or navigate through: Chrome menu (⋮) → More Tools → Extensions
+
+3. **Enable Developer Mode**:
+   - Toggle on the "Developer mode" switch in the top-right corner of the Extensions page
+
+4. **Load the extension**:
+   - Click the "Load unpacked" button that appears after enabling Developer mode
+   - Browse to the folder containing the TabVault files
+   - Select the folder and click "Open"
+
+5. **Verify installation**:
+   - TabVault should now appear in your extensions list
+   - The TabVault icon should be visible in your Chrome toolbar
+
+6. **Start using TabVault**:
+   - Click the TabVault icon or press Ctrl+Shift+H to open the interface
+   - Save your first workspace and enjoy organized browsing!
+
 ## 💡 Getting Started
 
-1. Install TabVault from the Chrome Web Store
-2. Navigate to the tabs you want to save
-3. Click the TabVault icon or press Ctrl+Shift+H
-4. Click "Save Current Workspace" and name it
-5. Access your workspaces anytime through the TabVault popup
-
-## 🛠️ Installation
-
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore)
-2. Search for "TabVault" or use the direct link
-3. Click "Add to Chrome"
-4. Start organizing your tabs!
+1. Navigate to the tabs you want to save
+2. Click the TabVault icon or press Ctrl+Shift+H
+3. Click "Save Current Workspace" and name it
+4. Access your workspaces anytime through the TabVault popup
 
 ---
 
